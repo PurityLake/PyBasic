@@ -1,0 +1,18 @@
+[project]
+name = "pybasic"
+description = "A simple programming language loosely based on BASIC"
+version = "0.0.1"
+authors = [
+    { name = "Robert O'Shea", email = "robertoshea2k11@gmail.com" }
+]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+]

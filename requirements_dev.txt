@@ -1,0 +1,6 @@
+mypy
+pytest
+flake8
+black
+tox
+pre-commit
