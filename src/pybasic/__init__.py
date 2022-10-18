@@ -5,6 +5,6 @@ class PyBasicFileInterpreter:
     def interpret(self):
         try:
             with open(self.filename) as f:
-                print(f)
+                print("Hello")
         except IOError:
-            print(f'Failed to open file "{f}')
+            print(f'Failed to open file "{self.filename}"')
